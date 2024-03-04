@@ -27,7 +27,7 @@
                             <label for="title" class="col-md-4 col-form-label text-md-end">{{ __('Title') }}</label>
 
                             <div class="col-md-6">
-                                <input id="title" name="title" type="text" value="{{$isEdit ? $note->title : old('title')}}" class="form-control">
+                                <textarea id="title" name="title" type="text" class="form-control">{{$isEdit ? $note->title : old('title')}}</textarea>
                             </div>
                         </div>
                         <div class="row mb-3">

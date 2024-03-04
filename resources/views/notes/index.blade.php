@@ -22,7 +22,7 @@
                    <tbody>
                    @foreach($notes as $item)
                     <tr>
-                    <td>{{$item->title}}</td>
+                    <td>{{substr($item->title, 0, 17)}}...</td>
                     <td>{{$item->created_at}}</td>
                     <td>
                     <a href="{{route('notes.show', $item->id)}}" class="btn btn-outline-primary btn-sm">Show</a>

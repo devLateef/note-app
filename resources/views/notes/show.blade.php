@@ -14,7 +14,7 @@
                             <label for="title" class="col-md-4 col-form-label text-md-end">{{ __('Title') }}</label>
 
                             <div class="col-md-6">
-                                <input id="description" name="title" type="text" class="form-control" value="{{$note->title}}" readonly>
+                                <textarea id="description" name="title" type="text" class="form-control" readonly>{{$note->title}}</textarea>
                             </div>
                         </div>
                         <div class="row mb-3">
