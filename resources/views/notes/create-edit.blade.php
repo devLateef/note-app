@@ -5,6 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
+                <div class="d-flex justify-content-end">
+                    <a href="{{route('notes.index')}}" class="btn btn-secondary my-2 mx-2">Back</a>
+                </div>
                 <div class="card-header">{{ __('Note') }}</div>
 
                 <div class="card-body">

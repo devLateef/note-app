@@ -8,7 +8,7 @@
             <div class="d-grid gap-2 d-md-block col-4 my-2 mx-3">
             <a href="{{route('notes.create')}}" class="btn btn-primary">Create New Note</a>
             </div>  
-                <div class="card-header">{{ __('Note') }}</div>
+                <div class="card-header">{{ __('Notes') }}</div>
 
                 <div class="card-body">
                    <table class="table">
